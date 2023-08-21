@@ -1,0 +1,29 @@
+@use "../colors" as *;
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    width: 340px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: 24px;
+    margin: auto;
+    margin-right: 18px;
+    color: $c_black;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+
+}
+
+svg {
+    color: $c_black;
+    width: 4em;
+    height: 3em;
+    justify-content: space-between;
+
+}

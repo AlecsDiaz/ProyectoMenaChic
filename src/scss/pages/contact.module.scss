@@ -1,0 +1,60 @@
+@use "../colors" as *;
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+    align-content: space-evenly;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+    align-content: space-evenly;
+}
+
+h6 {
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 18px;
+
+}
+
+svg {
+    align-content: space-between;
+    width: 3em;
+    height: 2em;
+    color: $c_black;
+    margin-right: 20px;
+
+}
+
+.mapa {
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #FCF9F9;
+
+    p {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}

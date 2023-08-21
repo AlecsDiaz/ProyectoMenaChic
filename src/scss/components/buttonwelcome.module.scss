@@ -1,0 +1,30 @@
+@use "../colors" as *;
+
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    width: 240px;
+    height: 50px;
+    align-items: center;
+    background-color: $c_purple;
+    border-radius: 14px;
+    justify-content: space-evenly;
+
+
+    h2 {
+        font-size: 22px;
+        margin: auto;
+        color: $c_white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    svg {
+        margin-left: 7px;
+        width: 2em;
+        height: 2em;
+        color: $c_white;
+
+    }
+
+}
